@@ -1,0 +1,142 @@
+
+.Backdrop_Backdrop__gAnnj {
+    background-color: #0000004d;
+    display: block;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 4em;
+    width: 100%;
+    z-index: 100 !important;
+}
+
+.Modal_Modal__ihArb {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    height: auto;
+    left: 50%;
+    min-height: 500px;
+    padding: 0 0 10px;
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: all .3s ease-out;
+    width: 448px;
+    z-index: 200;
+}
+
+.ic_wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.ver_txt{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #333;
+}
+
+.ver_eml__{
+    font-family: sans-serif;
+    text-align: center;
+    color: #222;
+}
+
+#controlle__r{
+    padding: 1px 4em;
+}
+
+#controlle__r > .eml_inp_cont > .email {
+    color: #212529;
+    display: block;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 2.5rem;
+    line-height: 1.5;
+    margin: 0.5rem 0;
+    padding: 0.275rem 0.75rem;
+    width: 300px;
+    height: 42px;
+    font-weight: bold;
+    color: #333;
+}
+
+.eml_inp_cont{
+    margin: 0 auto !important;
+}
+
+.Modal_Modal__ihArb form small {
+    color: #4285f3;
+    cursor: pointer;
+    width: 80%;
+}
+
+#sm{
+    font-family: sans-serif;
+}
+
+.nt_yr{
+    font-family: sans-serif;
+    color: #222;
+    font-size: 13px;
+    margin-top: 3.7em;
+}
+
+.Modal_btns__NUPl6 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.4em;
+}
+
+
+.Modal_userSign__wl3Al {
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 1rem;
+    padding: 0 0.7rem;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 50%; */
+    /* width: inherit; */
+}
+
+.usermal{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.chekk_cont{
+    display: flex;
+    align-items: center;
+}
+
+.btn_cont{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Modal_Modal__ihArb .Modal_err__emZ1L {
+    color: rgba(255,0,0,.863);
+    display: block;
+    font-size: .8rem;
+    font-weight: 600;
+    margin: 1rem;
+}
+
+/* media query  */
+
+@media (max-width: 1000px) {
+    .Backdrop_Backdrop__gAnnj{
+        top: 0 !important;
+    }
+}

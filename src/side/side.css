@@ -1,0 +1,15 @@
+
+.side_bar{
+    width: 17.4%;
+    height: 100%;
+    cursor: not-allowed;
+    margin-top: 20px;
+    position: fixed;
+    left: 0;
+}
+
+@media (max-width: 1000px) {
+    .side_bar{
+        display: none !important;
+    }
+}
